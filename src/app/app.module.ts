@@ -1,3 +1,4 @@
+import { PlaceholderDirective } from './shared/placeholder/placeholder.directive';
 import { AlertComponent } from './shared/alert/alert.component';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
@@ -37,7 +38,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RecipeEditComponent,
     AuthComponent,
     LoadingSpinnerComponent,
-    AlertComponent
+    AlertComponent,
+    PlaceholderDirective
   ],
   imports: [
     BrowserModule,

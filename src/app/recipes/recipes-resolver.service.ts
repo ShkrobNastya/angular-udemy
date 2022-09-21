@@ -4,7 +4,6 @@ import { Injectable } from "@angular/core";
 import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { RecipeService } from './recipe.service';
-import { animation } from '@angular/animations';
 
 @Injectable({providedIn: 'root'})
 export class RecipesResolverService implements Resolve<Recipe[]> {
@@ -18,6 +17,6 @@ export class RecipesResolverService implements Resolve<Recipe[]> {
         } else {
             return recipes;
         }
-        
+
     }
 }
